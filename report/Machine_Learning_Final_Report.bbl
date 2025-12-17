@@ -1,0 +1,124 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{THUAN2025118306}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7e375c1aee5586d862f05473a1ae14f4}{%
+           family={Thuan},
+           familyi={T\bibinitperiod},
+           given={Nguyen\bibnamedelima Duc},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e375c1aee5586d862f05473a1ae14f4}
+      \strng{fullhash}{7e375c1aee5586d862f05473a1ae14f4}
+      \strng{fullhashraw}{7e375c1aee5586d862f05473a1ae14f4}
+      \strng{bibnamehash}{7e375c1aee5586d862f05473a1ae14f4}
+      \strng{authorbibnamehash}{7e375c1aee5586d862f05473a1ae14f4}
+      \strng{authornamehash}{7e375c1aee5586d862f05473a1ae14f4}
+      \strng{authorfullhash}{7e375c1aee5586d862f05473a1ae14f4}
+      \strng{authorfullhashraw}{7e375c1aee5586d862f05473a1ae14f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0263-2241}
+      \field{journaltitle}{Measurement}
+      \field{title}{Inspection of mixed-type wafer defects from single-defect data via adaptive synthesis and self-attention CNN}
+      \field{volume}{256}
+      \field{year}{2025}
+      \field{pages}{118306}
+      \range{pages}{1}
+    \endentry
+    \entry{SHIN2022107996}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ca0f447b146a24ec89371d75f20de759}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Wooksoo},
+           giveni={W\bibinitperiod}}}%
+        {{hash=cf20d4a7933bd638053a0d2366295f91}{%
+           family={Kahng},
+           familyi={K\bibinitperiod},
+           given={Hyungu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=08a7a23919225d94c0350c7b4222a3dd}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seoung\bibnamedelima Bum},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{fde7090ff200bfdc0691ada28ce6e8af}
+      \strng{fullhash}{fde7090ff200bfdc0691ada28ce6e8af}
+      \strng{fullhashraw}{fde7090ff200bfdc0691ada28ce6e8af}
+      \strng{bibnamehash}{fde7090ff200bfdc0691ada28ce6e8af}
+      \strng{authorbibnamehash}{fde7090ff200bfdc0691ada28ce6e8af}
+      \strng{authornamehash}{fde7090ff200bfdc0691ada28ce6e8af}
+      \strng{authorfullhash}{fde7090ff200bfdc0691ada28ce6e8af}
+      \strng{authorfullhashraw}{fde7090ff200bfdc0691ada28ce6e8af}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0360-8352}
+      \field{journaltitle}{Computers \& Industrial Engineering}
+      \field{title}{Mixup-based classification of mixed-type defect patterns in wafer bin maps}
+      \field{volume}{167}
+      \field{year}{2022}
+      \field{pages}{107996}
+      \range{pages}{1}
+    \endentry
+    \entry{SHIM2023120923}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d8d7a17b9ec63f05d465fe00e6ae8831}{%
+           family={Shim},
+           familyi={S\bibinitperiod},
+           given={Jaewoong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=678c2de2ea268890fd466bfb47056634}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Seokho},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb56bf8239aefbfd3942eb6421ed6590}
+      \strng{fullhash}{bb56bf8239aefbfd3942eb6421ed6590}
+      \strng{fullhashraw}{bb56bf8239aefbfd3942eb6421ed6590}
+      \strng{bibnamehash}{bb56bf8239aefbfd3942eb6421ed6590}
+      \strng{authorbibnamehash}{bb56bf8239aefbfd3942eb6421ed6590}
+      \strng{authornamehash}{bb56bf8239aefbfd3942eb6421ed6590}
+      \strng{authorfullhash}{bb56bf8239aefbfd3942eb6421ed6590}
+      \strng{authorfullhashraw}{bb56bf8239aefbfd3942eb6421ed6590}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0957-4174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{Learning from single-defect wafer maps to classify mixed-defect wafer maps}
+      \field{volume}{233}
+      \field{year}{2023}
+      \field{pages}{120923}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

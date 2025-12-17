@@ -1,11 +1,10 @@
 import numpy as np
 import os
 
-# --- 1. 設定 ---
-# !! 請確保這個路徑是您 .npz 檔案的正確位置 !!
-INPUT_FILE_PATH = '/Users/prince_lego/Documents/program/Database/wafer_Map_Datasets.npz'
 
-# 輸出的檔案名稱
+INPUT_FILE_PATH = '/Users/prince_lego/Documents/program/Database/MixedWM38/wafer_Map_Datasets.npz' #pro
+
+
 NORMAL_FILE = 'normal_wafers.npz'
 SINGLE_FILE = 'single_defect_wafers.npz'
 MULTI_FILE = 'multi_defect_wafers.npz'
@@ -26,21 +25,19 @@ except Exception as e:
     print(f"載入檔案時發生錯誤: {e}")
     exit()
 
-# --- 3. 計算標籤總和並找出索引 ---
-label_sums = np.sum(arr_1, axis=1) # 計算每一列 (row) 的總和
 
-# 這些是 'wafer_Map_Datasets.npz' 中的原始索引
+label_sums = np.sum(arr_1, axis=1) 
+
+
 normal_indices = np.where(label_sums == 0)[0]
 single_indices = np.where(label_sums == 1)[0]
 multi_indices = np.where(label_sums > 1)[0]
 
-print(f"分析完成：找到 {len(normal_indices)} 筆正常, {len(single_indices)} 筆單一缺陷, {len(multi_indices)} 筆多重缺陷。")
+print(f"{len(normal_indices)} 筆正常, {len(single_indices)} 筆單一缺陷, {len(multi_indices)} 筆多重缺陷。")
 
-# --- 4. 處理、儲存並回報的輔助函式 ---
+
 def process_and_save(indices, category_name, filename):
-    """
-    根據索引提取資料、儲存為 .npz，並印出【簡化格式】的索引報告。
-    """
+
     if len(indices) == 0:
         print(f"\n類別 {category_name} 中沒有資料。")
         return
